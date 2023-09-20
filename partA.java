@@ -45,10 +45,13 @@ title = t;
 author = a;
 year =y;
 }
+void set_id(int i){
+this.id=i;
 
+}
 
 void display() {
-    System.out.println( "ID: " + id + "Title: " + title + " by " + author + "(" + year + ")" );
+    System.out.println( "ID: " + id + " Title: " + title + " by " + author + "(" + year + ")" );
 
 }
 static{
