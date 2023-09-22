@@ -31,10 +31,8 @@ book4.display();
 
 
 }
-class Book {
-static int nextId; // Static variable to auto-increment the ID
-int id;
-String title;
+class Book extends material{
+
 String author;
 int year;
 
@@ -53,9 +51,6 @@ this.id=i;
 void display() {
     System.out.println( "ID: " + id + " Title: " + title + " by " + author + "(" + year + ")" );
 
-}
-static{
-    Book.nextId=1;
 }
 
 }
