@@ -16,16 +16,9 @@ author=sc.nextLine();
 System.out.println("Enter the year of publication of the book: ");
 year=sc.nextInt();
 
-Book book= new Book(title, author, year);
+Book book= new Book(title, author, year,1,2);
 book.display();
-Book book1= new Book(title, author, year);
-book1.display();
-Book book2= new Book(title, author, year);
-book2.display();
-Book book3= new Book(title, author, year);
-book3.display();
-Book book4= new Book(title, author, year);
-book4.display();
+
 
 }
 
@@ -37,20 +30,25 @@ String author;
 int year;
 
 
-Book(String t, String a, int y) {
+Book(String t, String a, int y,int pop,int pri) {
 id = nextId++; 
 title = t;
 author = a;
 year =y;
+Popularity=pop;
+price=pri;
+borrow=0;
 }
 void set_id(int i){
 this.id=i;
 
 }
 
-void display() {
+public void display() {
     System.out.println( "ID: " + id + " Title: " + title + " by " + author + "(" + year + ")" );
 
 }
-
+public int cost_cal(){
+    return this.price+ 20*price+200;
+}
 }
