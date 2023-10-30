@@ -1,9 +1,11 @@
-1,1,book,author,1950,1,250,0
-2,2,Dawn,Hammad ahmed Ali,DawnLTD,1,250,1
-1,3,Famous,robert,2019,1,250,1
-1,4,book,author,1950,1,250,0
-1,5,rajnikat,hammad,1999,1,250,0
-1,6,honey,ali,2012,1,250,0
-1,7,4,Noori,1999,0,1000,0
-3,8,Jang,Geo,10-07-2003,0,10,0
-2,9,PArizaad,john parveen saqib ,HUM,0,1000,0
+Famous,robert,2019,3
+book,author,1950,5
+rajnikat,hammad,1999,6
+honey,ali,2012,7
+Noori,hammad,1999,8
+Peer,John elia,2012,2
+Java,jil,jj,2
+my book,ali,1999,4
+shdueawerfw,uhihi,897238,2
+uhiyuyhu,truyfyuj,454756,2
+iweudfiowejrio,hiwjeoi,iwjiosdwjeio,2
